@@ -1,0 +1,17 @@
+{
+  "name": "kysela.js",
+  "homepage": "https://github.com/kysela-petr/kysela.js",
+  "authors": [
+    "Kysela Petr <petr@kysela.biz>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
