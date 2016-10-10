@@ -18,6 +18,8 @@
                         response = JSON.parse(response);
                     }
                     callback(response);
+                } else if (xobj.readyState === 4) {
+                    callback(false);
                 }
             };
             xobj.send(null);
